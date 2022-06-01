@@ -1,0 +1,1 @@
+# flutter_graphql_sample
