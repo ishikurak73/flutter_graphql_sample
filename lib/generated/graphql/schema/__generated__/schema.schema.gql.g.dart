@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'scheme.schema.gql.dart';
+part of 'schema.schema.gql.dart';
 
 // **************************************************************************
 // BuiltValueGenerator

@@ -6,7 +6,7 @@ import 'package:flutter_graphql_sample/generated/graphql/queries/order/__generat
     as _i2;
 import 'package:flutter_graphql_sample/generated/graphql/queries/order/__generated__/order.var.gql.dart'
     as _i3;
-import 'package:flutter_graphql_sample/graphql/schema/__generated__/serializers.gql.dart'
+import 'package:flutter_graphql_sample/generated/graphql/schema/__generated__/serializers.gql.dart'
     as _i4;
 import 'package:gql_exec/gql_exec.dart' as _i1;
 

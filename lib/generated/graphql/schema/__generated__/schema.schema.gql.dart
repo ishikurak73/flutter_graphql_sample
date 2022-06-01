@@ -4,7 +4,7 @@ import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 
-part 'scheme.schema.gql.g.dart';
+part 'schema.schema.gql.g.dart';
 
 class GOrderStatus extends EnumClass {
   const GOrderStatus._(String name) : super(name);

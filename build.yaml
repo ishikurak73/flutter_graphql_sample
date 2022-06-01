@@ -6,22 +6,22 @@ targets:
       gql_build|req_builder:
         enabled: true
         options:
-          schema: flutter_graphql_sample|lib/graphql/schema/schema.graphql
+          schema: flutter_graphql_sample|lib/generated/graphql/schema/schema.graphql
       gql_build|serializer_builder:
         enabled: true
         options:
-          schema: flutter_graphql_sample|lib/graphql/schema/schema.graphql
+          schema: flutter_graphql_sample|lib/generated/graphql/schema/schema.graphql
       gql_build|schema_builder:
         enabled: true
       gql_build|data_builder:
         enabled: true
         options:
-          schema: flutter_graphql_sample|lib/graphql/schema/schema.graphql
+          schema: flutter_graphql_sample|lib/generated/graphql/schema/schema.graphql
       gql_build|var_builder:
         enabled: true
         options:
-          schema: flutter_graphql_sample|lib/graphql/schema/schema.graphql
+          schema: flutter_graphql_sample|lib/generated/graphql/schema/schema.graphql
       gql_build|op_builder:
         enabled: true
         options:
-          schema: flutter_graphql_sample|lib/graphql/schema/schema.graphql
+          schema: flutter_graphql_sample|lib/generated/graphql/schema/schema.graphql
