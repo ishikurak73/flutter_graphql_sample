@@ -1,0 +1,20 @@
+query OrderQuery($id: ID!) {
+    order(id: $id) {
+          id
+          status
+          created
+          user {
+            id
+            email
+		    firstName
+		    lastName
+    	  }
+          products {
+            id
+            name
+            description
+            price
+            quantity
+          }
+    }
+}

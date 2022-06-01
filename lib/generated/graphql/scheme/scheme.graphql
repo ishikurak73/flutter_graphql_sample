@@ -1,0 +1,35 @@
+type Query {
+  order(
+    id: ID!
+  ): Order
+}
+
+type Order {
+    id: ID!
+    created: DateTime!
+    user: User
+    products: [Product]!
+    status: OrderStatus!
+}
+
+type User {
+    id: ID!
+    email: String!
+    firstName: String!
+    lastName: String!
+}
+
+type Product {
+    id: ID!
+    name: String!
+    description: String!
+    price: Float!
+    quantity: Int!
+}
+
+enum OrderStatus {
+  DRAFT
+  DONE
+  CANCELED
+}
+
