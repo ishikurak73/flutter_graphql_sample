@@ -11,5 +11,5 @@ jobs:
         with:
           configurationFile: renovate/config.js
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
-        env:
-          RENOVATE_PRIVATE_KEY: ${{ secrets.RENOVATE_PRIVATE_KEY }}
+#        env:
+#          RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
