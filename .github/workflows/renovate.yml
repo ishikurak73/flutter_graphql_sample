@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   renovate:
-    runs-on: ubuntu-lagest #["self-hosted", "dev", "standard"] # This action requires ArkCI runner
+    runs-on: ubuntu-latest #["self-hosted", "dev", "standard"] # This action requires ArkCI runner
     steps:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v32.118.0
