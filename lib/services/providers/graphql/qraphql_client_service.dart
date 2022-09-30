@@ -9,22 +9,22 @@ class GraphqlClientService {
 
   Future<GraphQLClient> getClient({String token = ''}) async {
 
-    final _httpLink = HttpLink(
+    final httpLink = HttpLink(
         "endpoint of your api",
     );
 
-    final _authLink = AuthLink(
+    final authLink = AuthLink(
       getToken: () async => '',
     );
 
-    Link _link = _authLink.concat(_httpLink);
+    Link link = authLink.concat(httpLink);
 
-    GraphQLClient _client = GraphQLClient(
+    GraphQLClient client = GraphQLClient(
       cache: GraphQLCache(),
-      link: _link,
+      link: link,
     );
 
-    return _client;
+    return client;
 
   }
 }
