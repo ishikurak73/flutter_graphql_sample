@@ -13,7 +13,7 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v32.118.0
         with:
-          configurationFile: renovate.json
+          configurationFile: renovate-config.js
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
 #          privateKey: ${{ secrets.RENOVATE_GIT_PRIVATE_KEY }}
         env:
