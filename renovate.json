@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "gitAuthor": "Renovate Bot mypace.co.ltd@gmail.com",
+  "gitAuthor": "Renovate Bot <ishikurak73>",
   "onboarding": false,
   "platform": "github",
   "repositories": ["ishikurak73/flutter_graphql_sample"],
