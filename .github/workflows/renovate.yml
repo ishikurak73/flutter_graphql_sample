@@ -17,5 +17,5 @@ jobs:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
 #          privateKey: ${{ secrets.RENOVATE_GIT_PRIVATE_KEY }}
         env:
-          RENOVATE_PRIVATE_KEY: ${{ secrets.RENOVATE_GIT_PRIVATE_KEY }}
+          RENOVATE_GIT_PRIVATE_KEY: ${{ secrets.RENOVATE_GIT_PRIVATE_KEY }}
 #          RENOVATE_GIT_AUTHOR: mypace.co.ltd@gmail.com
