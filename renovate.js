@@ -3,7 +3,7 @@ module.exports = {
     "gitAuthor": "Renovate Bot <mypace.co.ltd@gmail.com>",
     "onboarding": false,
     "platform": "github",
-    "repositories": ["kouzoh/merlogi-base-jp"],
+    "repositories": ["ishikurak73/flutter_graphql_sample"],
     "packageRules": [
         {
             "matchUpdateTypes": [
