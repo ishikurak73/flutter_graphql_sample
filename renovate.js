@@ -1,6 +1,6 @@
 module.exports = {
     "extends": ["config:base"],
-    "gitAuthor": "Renovate Bot <mypace.co.ltd@gmail.com>",
+    "gitAuthor": "Renovate Bot <>",
     "onboarding": false,
     "platform": "github",
     "repositories": ["ishikurak73/flutter_graphql_sample"],
