@@ -12,6 +12,7 @@ module.exports = {
                 "pin",
                 "digest"
             ],
+            "labels": ["UPDATE-RENOVATE"]
             "automerge": false
         }
     ],
