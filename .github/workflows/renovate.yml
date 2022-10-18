@@ -9,9 +9,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@v32.213.2
+        uses: renovatebot/github-action@v32.238.4
         with:
           configurationFile: renovate.js
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
         env:
-          RENOVATE_GIT_PRIVATE_KEY: ${{ secrets.BOT_GITHUB_TOKEN }}
+          RENOVATE_GIT_PRIVATE_KEY: ${{ secrets.RENOVATE_GIT_PRIVATE_KEY }}
