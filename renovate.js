@@ -13,7 +13,7 @@ module.exports = {
                 "digest"
             ],
             "labels": ["UPDATE-RENOVATE"],
-            "automerge": true
+            "automerge": false
         }
     ],
     "ignoreDeps": [
