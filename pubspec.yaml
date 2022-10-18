@@ -20,7 +20,7 @@ dev_dependencies:
 
   # Model Generator
   freezed: ^0.14.1+2
-  freezed_annotation: ^0.14.1
+  freezed_annotation: ^0.15.0
 
   # File Generator
   build_runner: ^2.1.11
