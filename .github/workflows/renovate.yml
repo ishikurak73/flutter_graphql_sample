@@ -15,3 +15,4 @@ jobs:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
         env:
           RENOVATE_GIT_PRIVATE_KEY: ${{ secrets.RENOVATE_GIT_PRIVATE_KEY }}
+          RENOVATE_AUTOMERGE: true
